@@ -141,6 +141,12 @@ footer {
     text-decoration: none;
 }
 
+a:focus,
+button:focus {
+    outline: 3px solid #000;
+    outline-offset: 3px;
+}
+
 /* ===============================
    MEDIA QUERY – DESKTOP
    =============================== */
